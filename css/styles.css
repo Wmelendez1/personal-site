@@ -1,0 +1,57 @@
+/*
+COLOR PALETT
+
+Wood smoke - #07090A
+Brandy Rose - #B58588
+Smalt Blue - #527A91
+Cutty Sark - #486F66
+
+----------------------------------------*/
+
+/*
+GLOBAL STYLES
+----------------------------------------*/
+
+body {
+    background: #07090A;
+     color:#527A91;
+}
+
+/*
+HOME
+----------------------------------------*/
+.home {
+    background: url(../images/ales-nesetril-Im7lZjxeLhg-unsplash\ \(2\).jpg) no-repeat;
+    background-size: cover;
+}
+/* .home .content-wrapper {
+    background: rgb(7 9 10 / 1.0 );
+} */
+
+/*
+RESUME
+----------------------------------------*/
+
+/*
+PROFILE
+----------------------------------------*/
+
+/*
+PROJECTS
+----------------------------------------*/
+
+/*
+WORK EXPERIENCE
+----------------------------------------*/
+
+/*
+EDUCATION
+----------------------------------------*/
+
+/*
+FOOTER
+----------------------------------------*/
+
+a {
+    color:#B58588;
+}
