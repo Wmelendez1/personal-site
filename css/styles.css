@@ -5,18 +5,36 @@ Wood smoke - #07090A
 Brandy Rose - #B58588
 Smalt Blue - #527A91
 Cutty Sark - #486F66
+Pewter ----- #B9B7BD
 
 ----------------------------------------*/
 
-/*
-GLOBAL STYLES
+/*GLOBAL STYLES
 ----------------------------------------*/
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html, body {
+    height: 100%;
+}
 
 body {
     background: #07090A;
      color:#527A91;
+     margin:0;
 }
 
+.content-wrapper {
+    margin:0 auto;
+    width:900px;
+}
 /*
 HOME
 ----------------------------------------*/
@@ -24,9 +42,9 @@ HOME
     background: url(../images/ales-nesetril-Im7lZjxeLhg-unsplash\ \(2\).jpg) no-repeat;
     background-size: cover;
 }
-/* .home .content-wrapper {
-    background: rgb(7 9 10 / 1.0 );
-} */
+.home .content-wrapper {
+    background: rgb(7 9 10/ 0.5);
+}
 
 /*
 RESUME
@@ -54,4 +72,18 @@ FOOTER
 
 a {
     color:#B58588;
+}
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+.socials li{
+    display: inline-block;
+}
+.socials img{
+    width:32px;
+
+}
+.gitPic{
+    height: 32px;
 }
