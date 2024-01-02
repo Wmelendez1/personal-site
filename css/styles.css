@@ -30,6 +30,9 @@ body {
      color:#527A91;
      margin:0;
 }
+a {
+    color:#B58588;
+}
 
 .content-wrapper {
     margin:0 auto;
@@ -43,12 +46,19 @@ HOME
     background-size: cover;
 }
 .home .content-wrapper {
-    background: rgb(7 9 10/ 0.5);
+    background: rgb(181 133 136/ 0.1);
 }
 
 /*
 RESUME
 ----------------------------------------*/
+.resume header::before {
+    background: url(../images/michal-kubalczyk-WecngmAT-KY-unsplash.jpg) center;
+    background-size: cover;
+    content:"hello";
+    display: block;
+    height: 375px;
+}
 
 /*
 PROFILE
@@ -66,13 +76,14 @@ WORK EXPERIENCE
 EDUCATION
 ----------------------------------------*/
 
+
 /*
 FOOTER
 ----------------------------------------*/
-
-a {
-    color:#B58588;
+footer{
+ background-color:rgb(181 133 136/ 0.1);
 }
+
 .socials {
     list-style-type: none;
     padding: 0;
